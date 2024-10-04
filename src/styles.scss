@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background: linear-gradient( to bottom right,
+      rgba(#121829, 0.14),
+      rgba(#0F243C, 0.47),
+      rgba(#191A40, 0.91),
+    );
+    background-image: url('https://mailehereko.pramodpoudel.com.np/_nuxt/img/bg.1c9b34b.png');
+    background-repeat: repeat-y;
+    background-position: 50% -160px;
+    background-color: #121829;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: "Anek Telugu", "Helvetica Neue", sans-serif, cursive;
+    margin: 0;
+    overflow: hidden;
+  }
+  .font-anek-telugu {
+    font-family: 'Anek Telugu', sans-serif;
+  }
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
